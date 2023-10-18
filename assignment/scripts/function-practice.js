@@ -68,7 +68,8 @@ let array = [2,3,4,5];
 function getLast(array) {
   if (array.length === 0) {
     return undefined;
-  }{
+  }
+  {
       return array[array.length-1];
     }
 
@@ -81,14 +82,15 @@ console.log(getLast(array));
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 let value = 4
 function find(value, array) {
-for( let i=0; i<array.length; i++) 
+for( let i=0; i<array.length; i++) {
   if (array[i] === value) {
     return true;
-  }{
+  }
+}
     return false;
   }
-  
-}
+
+
 
 
 console.log(find(value, array));
